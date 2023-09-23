@@ -1,8 +1,0 @@
-// Top-level build file where you can add configuration options common to all sub-projects/modules.
-// 全局构建
-
-plugins {
-    // 运行所需的模块 版本号
-    id 'com.android.application' version '8.0.2' apply false
-    id 'com.android.library' version '8.0.2' apply false
-}

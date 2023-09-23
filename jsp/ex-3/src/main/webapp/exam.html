@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="GBK">
+    <title>考试系统，启动！</title>
+</head>
+<body>
+<p>请回答以下问题:</p>
+<form action="examServlet" method="post" accept-charset="UTF-8">
+    <span>1. Windows操作系统是哪个公司的产品?</span>
+    <label><input type="radio" name="question_1" value="option_1">Apple公司 </label>
+    <label><input type="radio" name="question_1" value="option_2">IBM公司 </label>
+    <label><input type="radio" name="question_1" value="option_3">Microsoft公司 </label> <br>
+    <span>2. 下面的程序设计语言，哪些是面向对象的? </span>
+    <label><input type="checkbox" name="question_2" value="option_1">Java语言  </label>
+    <label><input type="checkbox" name="question_2" value="option_2">C语言 </label>
+    <label><input type="checkbox" name="question_2" value="option_3">C++语言 </label><br>
+    <span>3. 编写Servlet程序应该继承哪个类? </span>
+    <label><input type="text" name="question_3"></label><br>
+    <span>4. 下面下面的图形是哪种编程语言? </span>
+    <label><input type="radio" name="question_4" value="option_1">C++</label>
+    <label><input type="radio" name="question_4" value="option_2">C</label>
+    <label><input type="radio" name="question_4" value="option_3">Java</label> <br>
+    <img src="assets/img.png" alt=""><br>
+    交卷请点击<button type="submit" name="submit">提交</button>
+    重答请点击<button type="submit" name="reply">重答</button>
+</form>
+
+</body>
+</html>
